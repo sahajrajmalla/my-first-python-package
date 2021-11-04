@@ -23,4 +23,8 @@ setup(
             'pytest>=3.7',
         ],
     },
+
+    url = 'https://github.com/sahajrajmalla/my-first-python-package',
+    author = 'Sahaj Raj Malla',
+    author_email = 'mallasahajraj@gmail.com',
 )
