@@ -13,4 +13,14 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
         "Operating System :: OS Independent",
     ],
+
+    install_requires = [
+        "pandas",
+    ],
+
+    extras_require = {
+        'dev': [
+            'pytest>=3.7',
+        ],
+    },
 )

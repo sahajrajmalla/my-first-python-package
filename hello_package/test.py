@@ -1,4 +1,8 @@
 from helloworld import say_hello
 
-res = say_hello('Sahaj Raj Malla')
-print(res)
+def test_helloworld_no_params():
+    assert say_hello() == 'Hello, World!'
+
+
+def test_helloworld_with_params():
+    assert say_hello('Everybody') == 'Hello, Everyone!'
